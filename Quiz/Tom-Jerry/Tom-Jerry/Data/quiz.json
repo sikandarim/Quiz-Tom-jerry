@@ -1,0 +1,114 @@
+[
+  {
+    "id" : "1",
+    "question" : "Who among Tom and Jerry usually succeed?",
+    "answer" : [
+      "Tom",
+      "Jerry",
+      "Both",
+      "None"
+    ],
+    "correctAnswer" :"Jerry",
+  },
+  {
+    "id" : "2",
+    "question" : "What was Jerry’s favorite food to eat?",
+    "answer" : [
+      "Cheese",
+      "Cake",
+      "Tom's Milk",
+      "Steak"
+    ],
+    "correctAnswer" : "Cheese",
+  },
+  {
+    "id" : "3",
+    "question" : " What is the color of Jerry?",
+    "answer" : [
+      "Red",
+      "Brown",
+      "Dark-Brown",
+      "Light-Brown"
+    ],
+    "correctAnswer" : "Brown",
+  },
+  {
+    "id" : "4",
+    "question" : "What Tom always do in the show?",
+    "answer" : [
+      "Chase Jerry",
+      "Drinking milk",
+      "Napping",
+      "loving toodles"
+     
+    ],
+    "correctAnswer" : "Chase Jerry",
+  },
+  {
+    "id" : "5",
+    "question" : "What is the color of Tom’s paws?",
+    "answer" : [
+      "Gray",
+      "White",
+      "Gray-white",
+      "Dark-Gray"
+    ],
+    "correctAnswer" : "White",
+  },
+  {
+    "id" : "6",
+    "question" : "Who is Tom in the show?",
+    "answer" : [
+      "Cat",
+      "Dog",
+      "Mouse",
+      "Duck"
+    ],
+    "correctAnswer" : "Cat",
+  },
+  {
+    "id" : "7",
+    "question" : "What is the color of Tom’s fur on body?",
+    "answer" : [
+      "Gray-White",
+      "Gray",
+      "White",
+      "Blue"
+    ],
+    "correctAnswer" : "Gray-White",
+  },
+  {
+    "id" : "8",
+    "question" : "What is the name of the mouse?",
+    "answer" : [
+      "Tom",
+      "Jerry",
+      "Spike",
+      "Tyke"
+    ],
+    "correctAnswer" : "Jerry",
+  },
+  {
+    "id" : "9",
+    "question" : "Which animal was Spike?",
+    "answer" : [
+      "Cat",
+      "Dog",
+      "Mouse",
+      "Duck"
+    ],
+    "correctAnswer" : "Dog",
+  },
+  {
+    "id" : "10",
+    "question" : "What was Tom’s favorite food to eat?",
+    "answer" : [
+      "Milk",
+      "Jerry",
+      "Quacker",
+      "Steak"
+    ],
+    "correctAnswer" : "Milk",
+  }
+  
+]

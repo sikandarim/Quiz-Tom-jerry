@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FDF7ECC2A451CBF004DC200 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF7ECB2A451CBF004DC200 /* AppDelegate.swift */; };
+		0FDF7ED02A451CBF004DC200 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF7ECF2A451CBF004DC200 /* QuizViewController.swift */; };
+		0FDF7ED82A451CC0004DC200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FDF7ED62A451CC0004DC200 /* LaunchScreen.storyboard */; };
+		0FDF7EE22A45DC30004DC200 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF7EE12A45DC30004DC200 /* Utilities.swift */; };
+		0FDF7EE42A45F1AC004DC200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FDF7EE32A45F1AC004DC200 /* Assets.xcassets */; };
+		0FDF7EE62A460992004DC200 /* quiz.json in Resources */ = {isa = PBXBuildFile; fileRef = 0FDF7EE52A460992004DC200 /* quiz.json */; };
+		0FDF7EEE2A477A74004DC200 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF7EED2A477A74004DC200 /* Header.swift */; };
+		0FDF7EF62A47C78B004DC200 /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF7EF52A47C78B004DC200 /* Footer.swift */; };
+		0FDF7EF92A484AA9004DC200 /* QuizVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF7EF82A484AA9004DC200 /* QuizVM.swift */; };
+		0FDF7EFC2A484C26004DC200 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF7EFB2A484C26004DC200 /* QuizModel.swift */; };
+		0FDF7EFE2A4ECDAC004DC200 /* BodySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF7EFD2A4ECDAC004DC200 /* BodySection.swift */; };
+		0FDF7F002A4F00A2004DC200 /* Body+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF7EFF2A4F00A2004DC200 /* Body+Design.swift */; };
+		0FDF7F062A4F46D4004DC200 /* ResViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF7F052A4F46D4004DC200 /* ResViewController.swift */; };
+		0FDF7F0A2A507772004DC200 /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF7F092A507772004DC200 /* NSNotificationName.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FDF7EC82A451CBF004DC200 /* Tom-Jerry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tom-Jerry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FDF7ECB2A451CBF004DC200 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0FDF7ECF2A451CBF004DC200 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		0FDF7ED72A451CC0004DC200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0FDF7ED92A451CC0004DC200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FDF7EE12A45DC30004DC200 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		0FDF7EE32A45F1AC004DC200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FDF7EE52A460992004DC200 /* quiz.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quiz.json; sourceTree = "<group>"; };
+		0FDF7EED2A477A74004DC200 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		0FDF7EF52A47C78B004DC200 /* Footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
+		0FDF7EF82A484AA9004DC200 /* QuizVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizVM.swift; sourceTree = "<group>"; };
+		0FDF7EFB2A484C26004DC200 /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		0FDF7EFD2A4ECDAC004DC200 /* BodySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodySection.swift; sourceTree = "<group>"; };
+		0FDF7EFF2A4F00A2004DC200 /* Body+Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Body+Design.swift"; sourceTree = "<group>"; };
+		0FDF7F052A4F46D4004DC200 /* ResViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResViewController.swift; sourceTree = "<group>"; };
+		0FDF7F092A507772004DC200 /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FDF7EC52A451CBF004DC200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FDF7EBF2A451CBF004DC200 = {
+			isa = PBXGroup;
+			children = (
+				0FDF7ECA2A451CBF004DC200 /* Tom-Jerry */,
+				0FDF7EC92A451CBF004DC200 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FDF7EC92A451CBF004DC200 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FDF7EC82A451CBF004DC200 /* Tom-Jerry.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FDF7ECA2A451CBF004DC200 /* Tom-Jerry */ = {
+			isa = PBXGroup;
+			children = (
+				0FDF7EFA2A484BB8004DC200 /* Model */,
+				0FDF7EF72A484A87004DC200 /* ViewModel */,
+				0FDF7EE92A4779CE004DC200 /* View */,
+				0FDF7EEC2A477A2C004DC200 /* Files */,
+				0FDF7EEB2A4779F4004DC200 /* Data */,
+				0FDF7EEA2A4779DB004DC200 /* OtherFiles */,
+				0FDF7EE32A45F1AC004DC200 /* Assets.xcassets */,
+				0FDF7ECB2A451CBF004DC200 /* AppDelegate.swift */,
+				0FDF7ED92A451CC0004DC200 /* Info.plist */,
+			);
+			path = "Tom-Jerry";
+			sourceTree = "<group>";
+		};
+		0FDF7EE92A4779CE004DC200 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0FDF7F082A4F4710004DC200 /* Result */,
+				0FDF7F072A4F46E4004DC200 /* QuizView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0FDF7EEA2A4779DB004DC200 /* OtherFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0FDF7ED62A451CC0004DC200 /* LaunchScreen.storyboard */,
+			);
+			path = OtherFiles;
+			sourceTree = "<group>";
+		};
+		0FDF7EEB2A4779F4004DC200 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0FDF7EE52A460992004DC200 /* quiz.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0FDF7EEC2A477A2C004DC200 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FDF7EE12A45DC30004DC200 /* Utilities.swift */,
+				0FDF7F092A507772004DC200 /* NSNotificationName.swift */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		0FDF7EF72A484A87004DC200 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0FDF7EF82A484AA9004DC200 /* QuizVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0FDF7EFA2A484BB8004DC200 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FDF7EFB2A484C26004DC200 /* QuizModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0FDF7F072A4F46E4004DC200 /* QuizView */ = {
+			isa = PBXGroup;
+			children = (
+				0FDF7EFF2A4F00A2004DC200 /* Body+Design.swift */,
+				0FDF7EED2A477A74004DC200 /* Header.swift */,
+				0FDF7EFD2A4ECDAC004DC200 /* BodySection.swift */,
+				0FDF7EF52A47C78B004DC200 /* Footer.swift */,
+				0FDF7ECF2A451CBF004DC200 /* QuizViewController.swift */,
+			);
+			path = QuizView;
+			sourceTree = "<group>";
+		};
+		0FDF7F082A4F4710004DC200 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				0FDF7F052A4F46D4004DC200 /* ResViewController.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FDF7EC72A451CBF004DC200 /* Tom-Jerry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FDF7EDC2A451CC0004DC200 /* Build configuration list for PBXNativeTarget "Tom-Jerry" */;
+			buildPhases = (
+				0FDF7EC42A451CBF004DC200 /* Sources */,
+				0FDF7EC52A451CBF004DC200 /* Frameworks */,
+				0FDF7EC62A451CBF004DC200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tom-Jerry";
+			productName = "Tom-Jerry";
+			productReference = 0FDF7EC82A451CBF004DC200 /* Tom-Jerry.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FDF7EC02A451CBF004DC200 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0FDF7EC72A451CBF004DC200 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0FDF7EC32A451CBF004DC200 /* Build configuration list for PBXProject "Tom-Jerry" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FDF7EBF2A451CBF004DC200;
+			productRefGroup = 0FDF7EC92A451CBF004DC200 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FDF7EC72A451CBF004DC200 /* Tom-Jerry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FDF7EC62A451CBF004DC200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FDF7EE42A45F1AC004DC200 /* Assets.xcassets in Resources */,
+				0FDF7EE62A460992004DC200 /* quiz.json in Resources */,
+				0FDF7ED82A451CC0004DC200 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FDF7EC42A451CBF004DC200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FDF7EEE2A477A74004DC200 /* Header.swift in Sources */,
+				0FDF7ED02A451CBF004DC200 /* QuizViewController.swift in Sources */,
+				0FDF7ECC2A451CBF004DC200 /* AppDelegate.swift in Sources */,
+				0FDF7F062A4F46D4004DC200 /* ResViewController.swift in Sources */,
+				0FDF7F002A4F00A2004DC200 /* Body+Design.swift in Sources */,
+				0FDF7EFE2A4ECDAC004DC200 /* BodySection.swift in Sources */,
+				0FDF7EFC2A484C26004DC200 /* QuizModel.swift in Sources */,
+				0FDF7EF92A484AA9004DC200 /* QuizVM.swift in Sources */,
+				0FDF7EE22A45DC30004DC200 /* Utilities.swift in Sources */,
+				0FDF7F0A2A507772004DC200 /* NSNotificationName.swift in Sources */,
+				0FDF7EF62A47C78B004DC200 /* Footer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0FDF7ED62A451CC0004DC200 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FDF7ED72A451CC0004DC200 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FDF7EDA2A451CC0004DC200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0FDF7EDB2A451CC0004DC200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FDF7EDD2A451CC0004DC200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZB6KCVD66;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tom-Jerry/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sikandariMariam.Tom-Jerry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0FDF7EDE2A451CC0004DC200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZB6KCVD66;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tom-Jerry/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sikandariMariam.Tom-Jerry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FDF7EC32A451CBF004DC200 /* Build configuration list for PBXProject "Tom-Jerry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FDF7EDA2A451CC0004DC200 /* Debug */,
+				0FDF7EDB2A451CC0004DC200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FDF7EDC2A451CC0004DC200 /* Build configuration list for PBXNativeTarget "Tom-Jerry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FDF7EDD2A451CC0004DC200 /* Debug */,
+				0FDF7EDE2A451CC0004DC200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FDF7EC02A451CBF004DC200 /* Project object */;
+}
